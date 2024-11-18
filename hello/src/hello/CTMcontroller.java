@@ -97,7 +97,7 @@ public class CTMcontroller {
 	}
 
 	public String sanitizeJsonString(String jsonString) {
-		// 通过去掉反斜杠，得到正常的 JSON 格式
+		// 通过去掉反斜杠，得到正常的 JSON 格式 
 		return jsonString.replace("\\", "");
 	}
 }
